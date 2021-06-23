@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>   
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 class="event">My Event</h1>
+    <!--TRAVAIL SUR LES BOUCLES IF/ELSE TABLEAUX ET FOR EACH -->
+    <section id="globale">
+        <div class="containerSearch">
+            <div id="contentReservation">
+                <h1 class="title">Billeterie</h1>
+                <label>Nom</label><br>
+                <input type="text" id="inputNom"/></br>
+                <label>Prénom</label><br>
+                <input type="text" id="inputPrenom"/></br>
+                <label>Age</label><br>
+                <input type="number" id="inputAge"/></br>
+                <label>Place</label><br>
+                <input type="number" id="inputPlace"></br>
+                <button id="button">Valider</button>
+                <div id="container">
+                    <p id="result"></p>
+                    <p id="result2"></p>
+                </div>
+            </div>
+            <div class="contentFete">
+             <div class="listPeople" >
+                     <button class="listeAffichage">Afficher la liste des personnes</button>
+                    <div id="affichage"></div>
+                </div>
+            </div>
+            <div class="contentApi">
+                <label>Chercher un participant</label>
+                <input type="text" class="inputPart"/></br>
+                <div class="myParticipant"></div>  
+            </div>
+        </div>
+<!--TRAVAIL SUR LES API-->
+ </section>
+ <script type="text/javascript" src="./scriptBackground.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    
+</body>
+</html>
+ 
