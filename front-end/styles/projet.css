@@ -1,0 +1,126 @@
+.title-projet {
+  font-size: 2.2rem;
+  color: rgb(226, 163, 103);
+  letter-spacing: 2px;
+  text-align: center;
+
+  padding-top: 25px;
+  width: 100%;
+}
+.content-project {
+  width: 97%;
+  height: 125px;
+}
+.liste-items {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 100%;
+  line-height: 50px;
+
+  color: rgb(236, 233, 233);
+}
+.title-items {
+  cursor: pointer;
+  width: 150px;
+  list-style: none;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+/*si je passe sur le menu */
+.title-items:hover > ul {
+  display: block;
+}
+/*menu js*/
+.sous-liste-js {
+  position: relative;
+  display: none;
+}
+.items-sous-liste-js {
+  list-style-type: none;
+  word-break: break-all;
+  text-align: center;
+  padding: 0 10px;
+  background-color: black;
+  border-radius: 1px;
+  font-size: 1rem;
+}
+.items-sous-liste-js:hover {
+  background-color: rgb(156, 156, 156);
+  color: black;
+}
+.items-sous-liste-js:nth-child(3) {
+  height: 50px;
+}
+/*menu react*/
+.sous-liste-react {
+  position: relative;
+  display: none;
+}
+.items-sous-liste-react {
+  list-style-type: none;
+  word-break: break-all;
+  text-align: center;
+  padding: 0 10px;
+  font-size: 1rem;
+  background-color: black;
+  border-radius: 1px;
+}
+.items-sous-liste-react:hover {
+  background-color: rgb(156, 156, 156);
+  color: black;
+}
+.items-sous-liste-react:nth-child(3) {
+  height: 50px;
+}
+/*menu back*/
+.sous-liste-divers {
+  position: relative;
+  display: none;
+}
+.items-sous-liste-divers {
+  list-style-type: none;
+  word-break: break-all;
+  text-align: center;
+  padding: 0 10px;
+  background-color: black;
+  border-radius: 1px;
+  font-size: 1rem;
+}
+.items-sous-liste-divers:hover {
+  background-color: rgb(156, 156, 156);
+  color: black;
+}
+.items-sous-liste-divers:nth-child(3) {
+  height: 50px;
+}
+/*Partie affichage des projets CSS ET JS*/
+#all-projects {
+  color: rgb(236, 233, 233);
+}
+#all-projects:hover {
+  opacity: 0.5;
+  transition: 0.2s ease-in-out;
+}
+.content-affichage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.content-txt-aff {
+  font-size: 1.5rem;
+  color: rgb(236, 233, 233);
+  width: 100%;
+  text-align: center;
+  margin: 0% 5% 0% 5%;
+}
+.myProject {
+  text-decoration: none;
+  border: 1px solid rgb(236, 233, 233);
+  border-radius: 3px;
+  padding: 10px 10px;
+  color: rgb(236, 233, 233);
+}

@@ -1,0 +1,29 @@
+.contentPresentation {
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+}
+.between {
+  margin: 0% 5% 0% 5%;
+  border-bottom: 1px solid rgb(226, 163, 103);
+}
+
+.title {
+  font-size: 2.2rem;
+  color: rgb(226, 163, 103);
+  letter-spacing: 2px;
+  text-align: center;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: 0% 10% 0% 10%;
+}
+header p {
+  color: rgb(236, 233, 233);
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-align: center;
+}

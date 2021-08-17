@@ -1,0 +1,171 @@
+.titleTechno {
+  margin: 3% 0% 0% 0%;
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+  font-size: 2.2rem;
+  color: rgb(226, 163, 103);
+  letter-spacing: 2px;
+}
+.titleTech {
+  color: rgb(236, 233, 233);
+
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.techno {
+  background-color: rgb(65, 60, 60);
+  padding-bottom: 25px;
+  box-shadow: 0px 0px 8px 0px rgb(236, 233, 233);
+}
+/*contentFront*/
+.subtitle {
+  margin: 3% 0% 0% 0%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(236, 233, 233);
+  letter-spacing: 2px;
+}
+.contentFront {
+  width: 100%;
+  display: flex;
+  margin: 3% 0% 5% 0%;
+  justify-content: space-around;
+  animation: voir 4s ease-in-out;
+}
+.logoFront {
+  height: 140px;
+  max-width: 100%;
+  transition: 0.3s;
+}
+.logoFront:hover {
+  box-shadow: 3px 3px 5px rgb(236, 233, 233);
+}
+/*CONTENT PROGRESS BAR */
+.html5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.css3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.javascript {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.react {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*contentBack*/
+.contentBack {
+  width: 100%;
+  display: flex;
+  margin: 3% 0% 5% 0%;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+.logoBack {
+  height: 140px;
+  max-width: 100%;
+  transition: 0.3s;
+}
+.logoBack:hover {
+  box-shadow: 3px 3px 5px rgb(236, 233, 233);
+}
+/*CONTENT PROGRESS BAR*/
+.node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.express {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mongodb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*contentOutils*/
+.contentOutils {
+  width: 100%;
+  display: flex;
+  margin: 3% 0% 5% 0%;
+  justify-content: center;
+}
+.outils1 {
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.outils2 {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoOutils1 {
+  height: 140px;
+  max-width: 100%;
+  transition: 0.3s;
+}
+.logoOutils2 {
+  height: 140px;
+  max-width: 100%;
+  transition: 0.3s;
+}
+.logoOutils1:hover {
+  box-shadow: 3px 3px 5px rgb(236, 233, 233);
+}
+.logoOutils2:hover {
+  box-shadow: 3px 3px 5px rgb(236, 233, 233);
+}
+/*design postion progress*/
+progress {
+  margin-top: 7px;
+  height: 25px;
+}
+/* .visuel {
+  animation: voir 3s ease-in-out;
+} */
+
+/*ANIMATION */
+@keyframes voir {
+  to {
+    opacity: 1;
+  }
+  from {
+    opacity: 0;
+  }
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 2s;
+}
+.apparaitre {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+.apparaitre-visible {
+  opacity: 1;
+  transform: translateX(0);
+  transition: 2s;
+}

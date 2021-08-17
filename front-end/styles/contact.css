@@ -1,0 +1,75 @@
+.contact {
+  font-size: 2.2rem;
+  color: rgb(226, 163, 103);
+  letter-spacing: 2px;
+
+  text-align: center;
+  padding-top: 25px;
+
+  width: 100%;
+}
+
+.contentForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contentForm > div {
+  width: 80%;
+}
+.contentForm.messageSend {
+  transition: 1s;
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(236, 233, 233);
+  font-family: sans-serif;
+}
+.conditions {
+  width: 10px;
+  height: 10px;
+}
+.contentForm > div > label {
+  color: rgb(236, 233, 233);
+  letter-spacing: 2px;
+}
+/*taille de mes input*/
+.inputPrenom {
+  width: 100%;
+  height: 25px;
+  margin: 2% 0% 2% 0%;
+  background-color: rgb(236, 233, 233);
+}
+.inputNom {
+  width: 100%;
+  height: 25px;
+  margin: 2% 0% 2% 0%;
+  background-color: rgb(236, 233, 233);
+}
+.inputEmail {
+  width: 100%;
+  height: 25px;
+  margin: 2% 0% 2% 0%;
+  background-color: rgb(236, 233, 233);
+}
+.textarea {
+  width: 100%;
+  height: 50px;
+  margin: 2% 0% 2% 0%;
+  background-color: rgb(236, 233, 233);
+}
+.contentButton {
+  text-align: center;
+  margin-top: 25px;
+}
+.myButton {
+  background-color: #333;
+  color: rgb(236, 233, 233);
+  padding: 12px 20px 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.myButton:hover {
+  background-color: rgb(236, 233, 233);
+  color: #333;
+  transition: 0.3s ease-in-out;
+}
